@@ -11,5 +11,4 @@ public interface View {
     void showReservationTableResult(int reservationNo);
 
     void registerObserver(ViewObserver observer);
-
 }

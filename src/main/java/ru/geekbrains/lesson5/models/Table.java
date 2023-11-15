@@ -20,7 +20,7 @@ public class Table {
         return no;
     }
 
-    public Table(){
+    public Table() {
         no = ++counter;
     }
 
@@ -28,5 +28,4 @@ public class Table {
     public String toString() {
         return String.format(Locale.getDefault(), "Столик #%d", no);
     }
-
 }
